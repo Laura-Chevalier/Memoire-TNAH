@@ -1,0 +1,131 @@
+#map { 
+    height: 900px;
+    position: center }
+
+.container_map_slider{
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    position: absolute; 
+    margin: 0 auto;
+  }
+  
+  .container_silder{
+    position: absolute;
+    z-index: 10000; 
+    bottom: 5px; 
+    left: 20px; 
+    width: 400px; 
+    padding: 10px; 
+    background: rgba(0,0,0,0.3); 
+    border-radius: 3px;
+  }
+
+  #resume {
+    position: absolute; 
+    right: 40%; 
+    top: 2%; 
+    background: #fff; 
+    border: 1px solid black; 
+    border-radius: 7px; 
+    padding: 5px; 
+    color: black; 
+    font-size: 12px; 
+    z-index: 10000; 
+    font-family: sans-serif;
+  }
+  
+/* Cluster  */
+.marker-cluster-large {
+  background-color: #DC143C;
+  color: white;
+  opacity: 1;
+font-family: "Lato"
+  
+}
+.marker-cluster-large div {
+  background-color: #DC143C;
+  color: white;
+font-family: "Lato"
+}
+.marker-cluster-medium {
+  background-color: #DC143C;
+  color: white;
+font-family: "Lato"
+}
+.marker-cluster-medium div {
+  background-color: #DC143C;
+  color: white;
+font-family: "Lato"
+}
+.marker-cluster-small {
+  background-color: #DC143C;
+  color: white;
+font-family: "Lato"
+}
+.marker-cluster-small div {
+  background-color: #DC143C;
+  color: white;
+font-family: "Lato"}
+
+/* Infobulles  */
+
+p b a:hover{
+  text-shadow: 2px 1px 5px rgb(218, 218, 218);
+}
+
+
+input[type="submit"] {
+  border: none !important;
+  border-radius: 0px;
+  background-color: #60AB9D;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2), 0 2px 5px 0 rgba(0,0,0,0.19);
+  height: 26px;
+  margin: auto
+}
+
+a:link 
+{ 
+ text-decoration:none; 
+} 
+
+
+input:hover {
+  background-color: #373737;
+}
+
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.05); /* IE 9 */
+  -webkit-transform: scale(1.05); /* Safari 3-8 */
+  transform: scale(1.05); 
+  box-shadow: 2px 2px 5px white
+}
+
+   /* Slider  */
+   div p i {
+    color : #a9adac;
+    margin-right: 1%;
+    
+}
+
+
+.ui-slider-handle {
+  text-align: center;
+  width: 2.6em !important;
+  margin-left: -1.3em !important;
+  line-height: 1em;
+
+}
+
+.ui-slider-handle span {
+  font-size: 10px;
+  font-weight: bold;
+}
